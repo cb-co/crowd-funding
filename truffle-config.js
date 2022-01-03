@@ -18,7 +18,7 @@
  *
  */
 
-const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require('truffle-hdwallet-provider');
 const { env } = require('process');
 require('dotenv').config();
 
